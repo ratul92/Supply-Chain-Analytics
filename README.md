@@ -199,24 +199,24 @@ Overall, the project demonstrates how predictive analytics can convert a traditi
 
 > The exact folder names may vary; this structure reflects the logical organization of the project based on the attached files.
 
+## Project Structure
+
+```text
 .
 ├── data/
 │   └── raw/
-│   |   └── DataCoSupplyChainDataset.csv          # Original dataset (as used in notebooks)
-│   ├── processed/
-│   │   ├── final_cleaned_supply_chain_dataset.csv
-│   │   ├── initial_cleaned_supply_chain_dataset.csv
-│   │   └── data_quality_summaries.csv
+│       └── DataCoSupplyChainDataset.csv          # Original dataset used in analysis
 ├── notebooks/
 │   ├── data_cleaning-2.ipynb                     # Data integrity checks & cleaning
-│   ├── feature_engineering-3.ipynb               # Feature engineering + train/val/test creation
-│   └── SHAP_Supply_Chain_FSR_Version.ipynb       # Modeling, evaluation & SHAP analysis
+│   ├── feature_engineering-3.ipynb               # Feature engineering + train/val/test splits
+│   └── SHAP_Supply_Chain_FSR_Version.ipynb       # Modeling, evaluation & SHAP explainability
 ├── reports/
-│   ├── EDA-FINDINGS-2.pdf                        # EDA summary
-│   ├── SUPPLY-CHAIN-ANALYTICS-REPORT-1-.pdf-5.pdf# Full project report
-│   ├── SCA-Modeling-Evaluation-supply-chain-project_-3.pdf  # Modeling review
-│   ├── Supply-Chain-Analytics-1-6.pdf            # Slide deck (PDF)
-│   ├── Speaker_Notes-4.pdf                       # Speaker notes
+│   ├── EDA-FINDINGS-2.pdf                        # Exploratory Data Analysis summary
+│   ├── SUPPLY-CHAIN-ANALYTICS-REPORT-1-.pdf-5.pdf# Full supply chain analytics report
+│   ├── SCA-Modeling-Evaluation-supply-chain-project_-3.pdf  # Technical modeling review
+│   ├── Supply-Chain-Analytics-1-6.pdf            # Slide deck (PDF format)
+│   ├── Speaker_Notes-4.pdf                       # Presentation speaker notes
 │   └── slides/
-│       └── Supply-chain-project.pptx.pptx        # Original PPTX presentation
-└── README.md                                     # GitHub project documentation
+│       └── Supply-chain-project.pptx.pptx        # Original PowerPoint presentation
+└── README.md                                     # Main project documentation (this file)
+
